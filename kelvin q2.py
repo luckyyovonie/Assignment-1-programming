@@ -1,0 +1,13 @@
+print("welcome to yovonie enterprise")
+print("please enter your name")
+customer_name = input()
+print ("enter the item you want to purchased")
+item = input()
+print ("welcome, " + customer_name + "! you've purchased " + item)
+print ("average calculator")
+print ("enter your score")
+score1= float(input("enter first score"))
+score2= float(input("enter second score"))
+score3= float(input("enter third score"))
+average_score=(score1  + score2 + score3)/ 3
+print ("Your average score is, " + str(average_score))
